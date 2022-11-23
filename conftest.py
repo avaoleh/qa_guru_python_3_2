@@ -9,7 +9,7 @@ def config_webdriver():
     return browser.config.driver
 
 @pytest.fixture()
-def config_browser_size(config_browser_size):
+def config_browser_size():
     browser.config.driver.maximize_window()
 
 
